@@ -1,0 +1,6 @@
+exclude:
+  - bin
+  - Gemfile
+  - LICENSE.txt
+  - README.md
+  - README.txt
