@@ -738,7 +738,7 @@
     .logo {
       background: $color-accent-bg;
       border-radius: 100%;
-      color: $color-accent-fg-bold;
+      color: darken($color-accent2-bg, 10%);
       cursor: default;
       display: inline-block;
       font-size: 2.25em;
@@ -747,6 +747,7 @@
       margin: 0 0 0.75em 0;
       text-align: center;
       width: 2.35em;
+      text-shadow: 0 0.02em 0.01em rgba(0,0,0,0.2), 0 -0.01em 0 rgba(255,255,255,0.3);
 
       &.fa-paper-plane-o:before {
         left: -0.075em;
