@@ -1,4 +1,9 @@
-title: tech256 - a north alabama tech community
+title: North Alabama Tech Community
+description: >
+  We're a group of developers, designers, marketers, business people,
+  hobbyists, students, and other professionals with two common threads.
+  North Alabama and technology.
+keywords: "tech, technology, north alabama, florence, huntsville, computers"
 exclude:
   - bin
   - Gemfile
