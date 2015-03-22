@@ -15,7 +15,7 @@ $(document).on("submit", "#invitation_form", function(e) {
     .find("input")
     .prop("disabled", true);
 
-  var request = $.post("http://tech256.herokuapp.com/invitations", data)
+  var request = $.post("https://tech256.herokuapp.com/invitations", data)
 
   request.done(function(){
     success.show();
