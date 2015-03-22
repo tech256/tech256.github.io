@@ -15,6 +15,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/invitations.js"></script>
     <noscript>
       <link rel="stylesheet" href="css/skel.css" />
       <link rel="stylesheet" href="css/style.css" />
@@ -50,15 +51,27 @@
 
           <p>Enter your email below to receive an invite to our Slack team.</p>
 
-          <form method="post" action="#">
+          <form id="invitation_form" method="post" action="#">
             <div class="row">
               <div class="7u">
-                <input type="email" name="email" placeholder="Email" />
+                <input required type="email" name="invitation[email]" placeholder="Email" />
               </div>
               <div class="5u">
                 <ul class="actions">
                   <li><input type="submit" value="Invite me!" /></li>
                 </ul>
+              </div>
+            </div>
+
+            <div class="row invitation-success hide">
+              <div class="12u">
+                <p>Excite! Your invitation should be on its way.</p>
+              </div>
+            </div>
+
+            <div class="row invitation-failure hide">
+              <div class="12u">
+                <p>Whoops, we screwed up. Try again later.</p>
               </div>
             </div>
           </form>
