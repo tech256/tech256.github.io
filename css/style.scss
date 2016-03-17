@@ -692,6 +692,10 @@
     position: relative;
     text-align: center;
 
+    &.minor {
+      padding: 1em 0 2em 0;
+    }
+
     &:before,
     &:after {
       background: $color-border;
