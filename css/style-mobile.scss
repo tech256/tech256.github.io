@@ -95,10 +95,18 @@
 			width: 100%;
 		}
 		
+		.image2 {
+			display: none;
+		}
+
 		.content {
 			border: solid 1px $color-border;
 			padding: 2em !important;
 			text-align: center;
+			width: 100%;
+		}
+
+		.content2 {
 			width: 100%;
 		}
 	}
